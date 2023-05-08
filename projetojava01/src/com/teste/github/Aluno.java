@@ -32,10 +32,7 @@ public class Aluno {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	@Override
-	public int hashCode() {
-		return Objects.hash(endereco, estadoCiviel, idade, nome);
-	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
