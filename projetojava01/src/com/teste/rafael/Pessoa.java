@@ -5,8 +5,16 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private String endereco;
+	private String telefone;
 	
 	
+	
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
 	public String getEndereco() {
 		return endereco;
 	}
