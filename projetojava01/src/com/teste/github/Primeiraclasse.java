@@ -8,7 +8,7 @@ public class Primeiraclasse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Consegui...");
+		System.out.println("Consegui trabalhar com GitHub");
 
 	}
 
