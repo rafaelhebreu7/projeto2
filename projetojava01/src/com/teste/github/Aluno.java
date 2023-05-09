@@ -33,7 +33,7 @@ public class Aluno {
 		this.endereco = endereco;
 	}
 	
-	@Override
+	
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;

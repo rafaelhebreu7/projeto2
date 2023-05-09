@@ -5,8 +5,17 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private String endereco;
+	private String cellphone;
 	
 	
+	
+	
+	public String getCellphone() {
+		return cellphone;
+	}
+	public void setCellphone(String cellphone) {
+		this.cellphone = cellphone;
+	}
 	public String getEndereco() {
 		return endereco;
 	}
