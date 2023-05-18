@@ -2,6 +2,7 @@ package com.teste.rafael;
 
 public class Pessoa {
 
+	private int id;
 	private String nome;
 	private String sobrenome;
 	private String endereco;
