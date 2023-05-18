@@ -8,8 +8,6 @@ public class Pessoa {
 	private String cellphone;
 	
 	
-	
-	
 	public String getCellphone() {
 		return cellphone;
 	}
