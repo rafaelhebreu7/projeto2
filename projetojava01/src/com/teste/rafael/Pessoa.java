@@ -8,7 +8,6 @@ public class Pessoa {
 	private String endereco;
 	private String cellphone;
 	
-	
 
 	public String getCellphone() {
 		return cellphone;
@@ -34,6 +33,12 @@ public class Pessoa {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", sobrenome=" + sobrenome + ", endereco=" + endereco + ", cellphone="
+				+ cellphone + "]";
+	}
+	
+	
 	
 	
 
