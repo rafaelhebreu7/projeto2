@@ -2,19 +2,14 @@ package com.teste.rafael;
 
 public class Pessoa {
 
-	private int id;
+
 	private String nome;
 	private String sobrenome;
 	private String endereco;
 	private String cellphone;
 	
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public String getCellphone() {
 		return cellphone;
 	}
